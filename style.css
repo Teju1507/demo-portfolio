@@ -1,0 +1,415 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*Navbar Section*/
+.logo {
+  width: 150px;
+  height: 100px;
+}
+#navItem {
+  color: #1f5279;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: 530;
+}
+#navItem:hover {
+  color: #202830;
+  font-family: "Roboto";
+  text-decoration: underline;
+}
+/*Introduction Section*/
+.intro-section-bg-container {
+  height: 50%;
+  background-image: radial-gradient(#fff, #90ccdb, #2ba4c2);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.intro-image {
+  margin: 5px;
+  border-radius: 300px;
+  width: 450px;
+  padding: 10px;
+}
+.intro-heading {
+  color: #1f5279;
+  font-style: italic;
+  font-family: "Roboto";
+  font-size: 35px;
+  font-weight: bold;
+}
+.intro-para {
+  color: #1a4261;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+}
+.intro-name {
+  color: #1a4261;
+  font-style: italic;
+  font-family: "Roboto";
+  font-weight: 300;
+}
+.contact-btn {
+  display: block;
+  margin: 40px auto;
+  width: fit-content;
+  border: 2px solid #edeff0;
+  padding: 14px 50px;
+  border-radius: 6px;
+  color: #218aa5;
+  transition: background 0.5s;
+  transition: border 0.5s;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.contact-btn:hover {
+  background: #6ac6dd;
+  border: 2px solid #60a8cc;
+  color: #fff;
+}
+/*About me section*/
+.about-heading {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 28px;
+  color: #183b56;
+}
+.women-image {
+  width: 100%;
+  height: 100%;
+}
+.about-matter {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+.highlight {
+  font-weight: bold;
+  font-style: italic;
+}
+.about-description {
+  color: #1a4261;
+}
+.about-list {
+  color: #1a4261;
+}
+/*Education section*/
+.education-section {
+  background-color: #90ccdb;
+}
+.education-heading {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 28px;
+  color: #183b56;
+}
+.education-card {
+  background-color: white;
+  text-align: center;
+  border-radius: 16px;
+  border: 1px solid #e5eaf4;
+  height: 300px;
+}
+.edu-card-title {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 22px;
+  color: #1a4261;
+}
+.edu-card-description {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #1a4261;
+}
+/*Expertise section*/
+.expertise-section {
+  background-color: White;
+}
+.expertise-heading {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 28px;
+  color: #183b56;
+}
+.expertise-description {
+  font-size: 14px;
+  padding-top: 5px;
+  text-align: center;
+}
+.expertise-image {
+  border-radius: 16px;
+  height: 200px;
+  width: 170px;
+}
+.expertise-title {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 12px;
+  text-align: center;
+}
+.expertise-card {
+  border-radius: 26px;
+  height: 250px;
+}
+/*Experience section*/
+.experience-section {
+  background-color: #90ccdb;
+}
+.experience-heading {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 28px;
+  color: #183b56;
+}
+.card {
+  background-image: radial-gradient(#fff, #90ccdb, #2ba4c2);
+  text-align: center;
+  border-radius: 15px;
+}
+.card-header {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 15px;
+}
+.card-body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn.btn-link {
+  color: #1a4261;
+  border: 1px solid #2ba4c2;
+}
+.btn.btn-link:hover {
+  background-color: #218aa5;
+  color: #fff;
+  border: 1px solid #2ba4c2;
+}
+.card-body {
+  color: #1a4261;
+  font-style: italic;
+}
+
+/*Myservices section*/
+.service-section {
+  background-color: #fff;
+}
+.service-card {
+  background-image: radial-gradient(#fff, #90ccdb, #2ba4c2);
+  text-align: center;
+  border-radius: 16px;
+  border: 5px solid #e5eaf4;
+  height: 300px;
+  padding: 10px;
+}
+.service-heading {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 28px;
+  color: #183b56;
+  padding: 15px;
+}
+.service-icon {
+  margin-top: 20px;
+}
+.service-card-title {
+  font-size: 24px;
+}
+.work {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.work img {
+  width: 100%;
+  height: 270px;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+}
+.layer {
+  color: #fff;
+  width: 100%;
+  height: 0%;
+  background: linear-gradient(rgba(199, 235, 233, 0.534), #2ba4c2);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 30px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+}
+.layer h3 {
+  font-weight: bold;
+}
+.layer a {
+  margin-top: 10px;
+  color: #2ba4c2;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  background: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+}
+.work:hover img {
+  transform: scale(1.1);
+}
+.work:hover .layer {
+  height: 100%;
+}
+.btn {
+  display: block;
+  margin: 30px auto;
+  width: fit-content;
+  border: 1px solid #2ba4c2;
+  padding: 14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #2ba4c2;
+  transition: background 0.5s;
+}
+.btn:hover {
+  background: #2ba4c2;
+  color: #fff;
+}
+
+/*Contact me*/
+.contact-section {
+  background-color: #90ccdb;
+}
+.contact-img {
+  width: 350px;
+  height: 400px;
+  border-radius: 8px;
+}
+.contact-heading-1 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 28px;
+  color: #183b56;
+  padding: 10px;
+}
+.contact-heading-2 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+  color: #183b56;
+}
+.contact-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.details {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.submit-button {
+  background: #90ccdb;
+  display: block;
+  margin: 40px auto;
+  width: fit-content;
+  border: 1px solid #fff;
+  padding: 14px 50px;
+  border-radius: 6px;
+  color: #218aa5;
+  transition: background 0.5s;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.submit-button:hover {
+  background: #409db4;
+  color: #fff;
+  text-decoration: underline;
+}
+.btn.btn2 {
+  background: #2ba4c2;
+  color: #fff;
+}
+.btn.btn2:hover {
+  background: #218aa5;
+  color: #fff;
+}
+.contact-left {
+  text-align: center;
+}
+.contact-left p {
+  margin-top: 30px;
+}
+.contact-right form {
+  width: 100%;
+}
+form input,
+form textarea {
+  width: 100%;
+  border: 1px solid #2ba4c2;
+  outline: none;
+  background: #fff;
+  padding: 15px;
+  margin: 15px 0;
+  color: #2ba4c2;
+  font-size: 18px;
+  border-radius: 6px;
+}
+/*Follow me*/
+.follow-us-section {
+  background-color: white;
+}
+.follow-us-section-heading {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 28px;
+  color: #183b56;
+  text-align: center;
+}
+.icon {
+  color: #2ba4c2;
+  font-size: 35px;
+  text-align: center;
+}
+.follow-container {
+  width: 80px;
+  height: 80px;
+  background-color: #90ccdb;
+  padding: 22px 16px 14px 22px;
+  margin: 15px;
+  border-radius: 40px;
+}
+/*Footer section*/
+.footer-section {
+  background-image: linear-gradient(#90ccdb, #2ba4c2);
+}
+.footer-section-mail-id {
+  color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 20px;
+  font-style: italic;
+}
+.footer-section-address {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+.logo-footer {
+  width: 300px;
+  height: 150px;
+}
